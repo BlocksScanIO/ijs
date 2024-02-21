@@ -20,8 +20,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@internxt/eslint-config-internxt": "^1.0.3",
-    "@internxt/prettier-config": "^1.0.1",
+    "@internxt/eslint-config-internxt": "git+https://github.com/internxt/eslint-config-internxt",
+    "@internxt/prettier-config": "git+https://github.com/internxt/prettier-config",
     "@types/archiver": "^5.1.1",
     "@types/async": "^3.2.3",
     "@types/chai": "^4.2.11",
@@ -54,8 +54,8 @@
     "uuid": "^8.3.2"
   },
   "dependencies": {
-    "@internxt/lib": "^1.1.6",
-    "@internxt/sdk": "^1.4.27",
+    "@internxt/lib": "^git+https://github.com/internxt/lib",
+    "@internxt/sdk": "git+https://github.com/internxt/sdk",
     "async": "^3.2.0",
     "axios": "^0.23.0",
     "bip39": "^3.0.2",
